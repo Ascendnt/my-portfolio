@@ -1,41 +1,45 @@
+"use client";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
 
-const navbar = () => {
+// {navLinks.map((link, index) => (
+//   <Link 
+//   href={link.href}
+//   className={`${
+//     currentRoute === link.href ? "bg-blue-500" : "bg-black"
+//     }`}
+//     key={index}
+//   >
+//     {link.name}
+//   </Link>
+// ))}
+
+const NavBar = () => {
+  // flex items-center justify-center p-4 gap-3 bg-black text-white
+  // const currentRoute = usePathname();
   const navLinks = [
     {
       name: "Home",
       href: "/",
-      current: true,
+      
     },
     {
-      name: "About me",
-      href: "/",
-      current: false,
+      name: "About",
+      href: "/about",
+      
     },
   ];
   return (
-    <section className="home">
-      <nav className="bg-black">
-        <div className="flex items-center justify-center h-16">
-          <div className="flex-shrink-0">
-            <a href="/" className="text-white">
-              {" "}
-              Home
-            </a>
-            {/* will change the logo later */}
-            <a href="/" className="text-white mx-5">
-              {" "}
-              logo
-            </a>
-            <a href="/" className="text-white">
-              {" "}
-              About me
-            </a>
-          </div>
-        </div>
+    <div>
+        <nav className="flex gap-3 justify-center items-center p-4 bg-black text-white">
+        {/* {navLinks.map(())} */}
+          <Link href="/">Home</Link>
+          <Link href="/">Logo</Link>
+          <Link href="/about">About</Link>
       </nav>
-    </section>
+    </div>
   );
 };
 
-export default navbar;
+export default NavBar;
