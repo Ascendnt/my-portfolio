@@ -16,20 +16,20 @@ import React from "react";
 // ))}
 
 const NavBar = () => {
-  // flex items-center justify-center p-4 gap-3 bg-black text-white
-  // const currentRoute = usePathname();
-  const navLinks = [
-    {
-      name: "Home",
-      href: "/",
+  // // flex items-center justify-center p-4 gap-3 bg-black text-white
+  // // const currentRoute = usePathname();
+  // const navLinks = [
+  //   {
+  //     name: "Home",
+  //     href: "/",
       
-    },
-    {
-      name: "About",
-      href: "/about",
+  //   },
+  //   {
+  //     name: "About",
+  //     href: "/about",
       
-    },
-  ];
+  //   },
+  // ];
   return (
     <div>
         <nav className="flex gap-3 justify-center items-center p-4 bg-black text-white">
