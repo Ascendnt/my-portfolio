@@ -1,15 +1,21 @@
+'use client'
+
 import React from 'react'
+import ExperienceSection from '../experience/page';
+import EducationSection from '../education/page';
 
 const AboutPage = () => {
   return (
-    <section className="flex bg-black text-white h-screen">
+    <section className="flex min-h-screen bg-black text-white">
       <div className="p-32">
         <div className='inline-flex flex-col'>
           <h1>Name</h1>
           <h2>Course</h2>
-          <p>Some Paragraph Here</p>
+          
         </div>
-        <div></div>
+        <div className='flex'>
+          Some Paragraph here
+        </div>
         <div className='inline-flex flex-col py-9'>
           <a href="">Experience</a>
           <a href="">Education</a>
@@ -30,14 +36,15 @@ const AboutPage = () => {
         <div>
           <h1>Experience</h1>
           <div className="flex px-8">
-            <p className='border bg-blue-500'>we test here</p>
+            <ExperienceSection />
+            
           </div>
         </div>
+
         <div>
           <h1>Education</h1>
           <div className="inline-flex flex-col px-8">
-          <p className='border bg-blue-500'>we test here</p>
-          <p className='border bg-blue-500'>we test here</p>
+            <EducationSection />
           </div>
         </div>
         <div>

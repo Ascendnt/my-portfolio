@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body {
-  @apply overflow-x-hidden overflow-y-hidden
-}
+/* body {
+  @apply overflow-y-hidden
+} */
 

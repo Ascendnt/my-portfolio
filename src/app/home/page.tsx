@@ -1,22 +1,33 @@
-import React from "react";
+'use client'
+
+import React, { useEffect } from 'react';
 
 const HomePage = () => {
+  useEffect(() => {
+    // Disable scrolling when component mounts
+    document.body.style.overflow = 'hidden';
+    
+    // Re-enable scrolling when component unmounts
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, []);
   return (
-    <section className="bg-black text-white">
-      <div className="flex flex-col items-center min-h-screen justify-center">
-        <div>
-          <h1 className="text-6xl">Some Text HERE</h1>
-        </div>
-        <div>
-          <h1 className="text-2xl text-center">So</h1>
-        </div>
-        <div>
-          <h1>
-            LOGO HERE LATER
-          </h1>
-        </div>
-      </div>
-    </section>
+<section className="text-white bg-black">
+  <div className="flex flex-col items-center justify-center min-h-screen">
+    <div>
+      <h1 className="text-6xl text-center">Some Text HERE</h1>
+    </div>
+    <div>
+      <h1 className="text-2xl text-center">So</h1>
+    </div>
+    <div>
+      <h1 className="text-center">
+        LOGO HERE LATER
+      </h1>
+    </div>
+  </div>
+</section>
   );
 };
 
