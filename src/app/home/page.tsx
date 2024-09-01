@@ -16,7 +16,7 @@ const HomePage = () => {
 <section className="text-white bg-black">
   <div className="flex flex-col items-center justify-center min-h-screen">
     <div>
-      <h1 className="text-6xl text-center">Some Text HERE</h1>
+      <h1 className="animate-slidein300 text-6xl text-center">Some Text HERE</h1>
     </div>
     <div>
       <h1 className="text-2xl text-center">So</h1>
