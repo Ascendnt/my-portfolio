@@ -1,6 +1,6 @@
 'use client'
-
 import React, { useEffect } from 'react';
+import './home.scss';
 
 const HomePage = () => {
   useEffect(() => {
@@ -13,22 +13,19 @@ const HomePage = () => {
     };
   }, []);
   return (
-<section className="text-white bg-black">
-  <div className="flex flex-col items-center justify-center min-h-screen">
     <div>
-      <h1 className="animate-slidein300 text-6xl text-center">Some Text HERE</h1>
-    </div>
-    <div>
-      <h1 className="text-2xl text-center">So</h1>
-    </div>
-    <div>
-      <h1 className="text-center">
-        LOGO HERE LATER
-      </h1>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <div id="title" className='flex flex-col items-center justify-center animate-slidein'>
+      <span>PAANO</span>
+      <span className='text-lg'>KUNG</span>
+      <span>MAMAYA NA</span>
     </div>
   </div>
-</section>
   );
 };
 
 export default HomePage;
+
+

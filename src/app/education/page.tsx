@@ -17,7 +17,7 @@ const EducationSection = () => {
                 <TimelineItem>
                   <TimelineConnector />
                   <TimelineHeader className="h-3">
-                    <TimelineIcon />
+                  <TimelineIcon className='bg-[#01579b]' />
                     <Typography  variant="h6" color='blue' className="leading-none">
                       Timeline Title Here.
                     </Typography>
@@ -30,14 +30,14 @@ const EducationSection = () => {
                       luv.
                     </Typography>
                   </TimelineBody>
-                  <TimelineIcon />
+                  <TimelineIcon className='bg-[#01579b]' />
                 </TimelineItem>
               </Timeline>
               <Timeline className='mt-10'>
                 <TimelineItem>
                   <TimelineConnector />
                   <TimelineHeader className="h-3">
-                    <TimelineIcon />
+                  <TimelineIcon className='bg-[#01579b]' />
                     <Typography  variant="h6" color='blue' className="leading-none">
                       Timeline Title Here.
                     </Typography>
@@ -50,7 +50,7 @@ const EducationSection = () => {
                       luv.
                     </Typography>
                   </TimelineBody>
-                  <TimelineIcon />
+                  <TimelineIcon className='bg-[#01579b]' />
                 </TimelineItem>
               </Timeline>
         </div>

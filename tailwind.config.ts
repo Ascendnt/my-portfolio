@@ -1,6 +1,7 @@
 import { Config } from "tailwindcss";
 const withMT = require("@material-tailwind/react/utils/withMT");
 
+
 const config: Config = withMT({
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,6 +10,12 @@ const config: Config = withMT({
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-radial-gradient': 'radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)',
+      },
+      backgroundColor: {
+        'custom-blue': '#38495a',
+      },
       keyframes: {
         slidein: {
           from: {
@@ -22,7 +29,7 @@ const config: Config = withMT({
         },
       },
       animation: {
-        slidein: "slidein 1s ease 300ms",
+        slidein: "slidein 1s ease 100ms",
       },
     },
   },

@@ -4,10 +4,11 @@ import React from 'react'
 import ExperienceSection from '../experience/page';
 import EducationSection from '../education/page';
 import Link from "next/link";
+import SkillsSections from '../skills/page';
 
 const AboutPage = () => {
   return (
-    <section className="flex min-h-screen bg-black text-white">
+    <section className="flex min-h-screen text-white animate-slidein bg-custom-radial-gradient">
       <div className="p-32">
 
         <div className='w-max m-5'>Name</div>
@@ -49,7 +50,8 @@ const AboutPage = () => {
         </div>
 
         <div className='w-max mt-16'>Education</div>
-        <div className='mt-10 px-8'><EducationSection /></div>
+        <div className='mt-10 px-8'><EducationSection />
+        </div>
         
         <div className=''>
           <span className=''></span>
@@ -59,10 +61,10 @@ const AboutPage = () => {
             
           </div>
         </div>
-
+        
         <div>
           <div className='w-max mt-16'>Skills</div>
-          <div className="flex flex-col items-center justify-center mt-10 px-8 ">we test here</div>
+          <div className="mt-10 px-8 "><SkillsSections /></div>
         </div>
         <div>
           <div className='w-max mt-16'>Projects</div>
