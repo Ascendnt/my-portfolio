@@ -11,9 +11,9 @@ const AboutPage = () => {
     <section className="flex min-h-screen text-white animate-slidein bg-custom-radial-gradient">
       <div className="p-32">
 
-        <div className='w-max m-5'>Name</div>
-        <div className='w-max m-5'>Course</div>
-        <div className='w-max m-5'>Some Paragraph Here</div>
+        <div className='w-max m-5 select-none'>Name</div>
+        <div className='w-max m-5 select-none'>Course</div>
+        <div className='w-max m-5 select-none'>Some Paragraph Here</div>
 
         
 
@@ -37,30 +37,14 @@ const AboutPage = () => {
 
       <div className='flex-1 p-32'>
 
-        <div className='w-max'>Experience</div>
-        <div className='mt-10 px-8'><ExperienceSection /></div>
+        <div className='w-max select-none'>Experience</div>
+        <div className='mt-10 px-8 select-none'><ExperienceSection /></div>
         
-        <div className=''>
-          <span className=''></span>
-          
-          <div className="flex px-8">
-            
-            
-          </div>
-        </div>
 
-        <div className='w-max mt-16'>Education</div>
-        <div className='mt-10 px-8'><EducationSection />
+        <div className='w-max mt-16 select-none'>Education</div>
+        <div className='mt-10 px-8 select-none'><EducationSection />
         </div>
         
-        <div className=''>
-          <span className=''></span>
-          
-          <div className="flex px-8">
-            
-            
-          </div>
-        </div>
         
         <div>
           <div className='w-max mt-16'>Skills</div>
@@ -73,8 +57,10 @@ const AboutPage = () => {
         <div>
           <div className='w-max mt-16'>Contact</div>
             <div className="flex flex-col items-center justify-center">
-              <div className='my-9'>blah blah blah</div>
-              <button>Button</button>
+              <div className='my-9'>Get in touch!</div>
+              <div className=''>You can contact me here!</div>
+              <button type="button" className="my-9 px-6 py-3.5 text-base font-medium text-white bg-gray-900 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Extra large</button>
+
             
           </div>
         </div>

@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect } from 'react';
-import './home.scss';
+import ParticlesBackground from '../particles/page';
 
 const HomePage = () => {
   useEffect(() => {
@@ -11,20 +11,21 @@ const HomePage = () => {
     return () => {
       document.body.style.overflow = 'unset';
     };
-  }, []);
-  return (
-    <div>
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-    <div id="title" className='flex flex-col items-center justify-center animate-slidein'>
-      <span>PAANO</span>
-      <span className='text-lg'>KUNG</span>
-      <span>MAMAYA NA</span>
-    </div>
-  </div>
-  );
-};
+      }, []);
+      return (
+        <div className='relative text-white min-h-screen'>
+          <ParticlesBackground />
+          <div className='flex items-center justify-center min-h-screen'>
+            <div className='text-center z-10 animate-slidein'>
+              <span className='block'>PAANO</span>
+              <span className='block text-lg'>KUNG</span>
+              <span className='block'>MAMAYA NA</span>
+            </div>
+          </div>
+        </div>
+
+      );
+    };
 
 export default HomePage;
 

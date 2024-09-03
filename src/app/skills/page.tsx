@@ -29,7 +29,7 @@ const SkillsSections = () => {
         src="/node.png"
         width={50}
         height={50}
-        alt="Node."
+        alt="Node.JS"
       />
     </div>
   );
