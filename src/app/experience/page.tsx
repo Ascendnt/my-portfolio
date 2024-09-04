@@ -15,7 +15,8 @@ const ExperienceSection = () => {
     <div className="w-[32rem]">
       
             <Timeline>
-            <TimelineItem>
+              <div className='flex items-center justify-center'>
+              <TimelineItem>
               <TimelineConnector />
               <TimelineHeader className="h-3">
               <TimelineIcon className='bg-[#01579b]' />
@@ -33,6 +34,9 @@ const ExperienceSection = () => {
               </TimelineBody>
               <TimelineIcon className='bg-[#01579b]' />
             </TimelineItem>
+
+              </div>
+
           </Timeline>
         </div>
   )

@@ -2,10 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply scroll-smooth;
+  
+}
 
-/* body {
-  @apply overflow-y-hidden
-} */
+*,
+*:before,
+*:after {
+  @apply cursor-default;
+}
+
+
+body {
+  @apply overflow-x-hidden
+}
 
 /* span {
   @apply block

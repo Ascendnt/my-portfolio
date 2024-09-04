@@ -13,16 +13,19 @@ const HomePage = () => {
     };
       }, []);
       return (
-        <div className='relative text-white min-h-screen'>
+        <div className=''>
           <ParticlesBackground />
-          <div className='flex items-center justify-center min-h-screen'>
-            <div className='text-center z-10 animate-slidein'>
-              <span className='block'>PAANO</span>
-              <span className='block text-lg'>KUNG</span>
-              <span className='block'>MAMAYA NA</span>
-            </div>
-          </div>
+          
+        <div className="relative flex flex-col min-h-screen items-center justify-center z-10 text-white text-center animate-slidein">
+        <div>
+          <h1 className="text-6xl select-none">Some Text HERE</h1>
         </div>
+        <div><h1 className="mt-4 text-2xl text-center select-none">So</h1></div>
+        <div className='mt-12'><h1>LOGO HERE LATER</h1></div>
+      </div>
+      </div>
+
+
 
       );
     };
