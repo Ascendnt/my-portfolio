@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  @apply scroll-smooth;
+  @apply scroll-smooth overflow-x-hidden;
   
 }
 
@@ -13,10 +13,12 @@ html {
   @apply cursor-default;
 }
 
-
-body {
-  @apply overflow-x-hidden
+a {
+  @apply cursor-pointer; /* Apply the custom cursor for links */
 }
+
+
+
 
 /* span {
   @apply block

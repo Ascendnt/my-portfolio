@@ -39,7 +39,7 @@ const ParticlesBackground = () => {
     autoPlay: true,
     background: {
     color: {
-      value: "#1B2735"
+      value: "#070F2B"
     },
     image: "",
     position: "",
@@ -84,8 +84,8 @@ const ParticlesBackground = () => {
         enable: true,
         mode: "grab",
         parallax: {
-          enable: false,
-          force: 2,
+          enable: true,
+          force: 10,
           smooth: 10
         }
       },

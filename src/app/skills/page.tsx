@@ -1,5 +1,4 @@
 import React from 'react';
-import skills from "../../data/skills.json";
 import Image from 'next/image';
 
 
@@ -7,30 +6,52 @@ import Image from 'next/image';
 const SkillsSections = () => {
   return (
     <div className='flex flex-row items-center justify-center gap-7'>
+      <div></div>
       <Image
-        src="/html.png"
+        src="/html5.svg"
         width={50}
         height={50}
         alt="HTML"
       />
       <Image
-        src="/css.png"
+        src="/css3.svg"
         width={50}
         height={50}
         alt="CSS"
       />
       <Image
-        src="/react.png"
+        src="/javascript-js.svg"
+        width={50}
+        height={50}
+        alt="JavaScript"
+      />
+      <Image
+        src="/react.svg"
         width={50}
         height={50}
         alt="React.JS"
       />
       <Image
-        src="/node.png"
+        src="/node-js.svg"
         width={50}
         height={50}
         alt="Node.JS"
       />
+      <Image
+        src="/typescript-icon.svg"
+        width={50}
+        height={50}
+        alt="Typesscript"
+      />
+      <div className="bg-white p-3">
+        <Image
+          src="/nextjs.svg"
+          width={50}
+          height={50}
+          alt="Next.JS"
+        />
+      </div>
+
     </div>
   );
 }

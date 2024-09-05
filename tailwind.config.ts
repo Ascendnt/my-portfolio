@@ -10,15 +10,12 @@ const config: Config = withMT({
   ],
   theme: {
     extend: {
-      scrollMarginTop: {
-        'margggin': '24rem',
-      },
       cursor: {
         default: 'url(/cursor.png) 38 38, default',
         pointer: 'url(/cursor.png) 38 38, pointer',
       },
       backgroundImage: {
-        'custom-radial-gradient': 'radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)',
+        'custom-radial-gradient': 'radial-gradient(ellipse at bottom, #1B1A55 0%, #070F2B 100%)',
       },
       backgroundColor: {
         'custom-blue': '#38495a',

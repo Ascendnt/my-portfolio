@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import {
     Timeline,
@@ -9,36 +10,67 @@ import {
     Typography,
   } from "@material-tailwind/react";
 
+
 const ExperienceSection = () => {
-    // @ts-ignore
+    // @tsx-ignore
   return (
     <div className="w-[32rem]">
-      
-            <Timeline>
-              <div className='flex items-center justify-center'>
-              <TimelineItem>
-              <TimelineConnector />
-              <TimelineHeader className="h-3">
-              <TimelineIcon className='bg-[#01579b]' />
-                <Typography  variant="h6" color='blue' className="leading-none">
-                  Timeline Title Here.
-                </Typography>
-              </TimelineHeader>
-              <TimelineBody className="pb-8">
-                <Typography variant="small" className="font-normal text-gray-600">
-                  The key to more success is to have a lot of pillows. Put it this way, it took me
-                  twenty five years to get these plants, twenty five years of blood sweat and tears, and
-                  I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-                  luv.
-                </Typography>
-              </TimelineBody>
-              <TimelineIcon className='bg-[#01579b]' />
+        <Timeline>
+          <TimelineItem>
+            
+            <TimelineConnector />
+            
+            <TimelineHeader className="h-3">
+
+              <TimelineIcon className="bg-[#01579b]" />
+              <Typography variant="h5" color="blue" className="leading-none">
+                Genpact Services LLC
+              </Typography>
+            </TimelineHeader>
+            
+            
+
+            <TimelineBody className="pb-8">
+              <Typography className="leading-7">
+                Process Associate
+              </Typography>
+              <Typography className="leading-7">
+                2024
+              </Typography>
+              <Typography variant="small" className="font-normal text-gray-600">
+                The key to more success is to have a lot of pillows. Put it this way, it took me
+                twenty-five years to get these plants, twenty-five years of blood sweat and tears, and
+                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan luv.
+              </Typography>
+            </TimelineBody>
             </TimelineItem>
+            <TimelineItem>
 
-              </div>
+            <TimelineHeader className="h-3">
+              <TimelineIcon className="bg-[#01579b]" />
+              <Typography variant="h5" color="blue" className="leading-none">
+                Lambert Williams Logistics
+              </Typography>
+            </TimelineHeader>
 
-          </Timeline>
-        </div>
+            <TimelineBody className="pb-8">
+            <Typography className="leading-7">
+                Software Developer Intern
+              </Typography>
+              <Typography className="leading-7">
+                2023
+              </Typography>
+              <Typography variant="small" className="font-normal text-gray-600">
+                The key to more success is to have a lot of pillows. Put it this way, it took me
+                twenty-five years to get these plants, twenty-five years of blood sweat and tears, and
+                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan luv.
+              </Typography>
+            </TimelineBody>
+            </TimelineItem>
+        </Timeline>
+        
+
+      </div>
   )
 }
 
