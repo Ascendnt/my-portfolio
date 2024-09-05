@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="flex justify-center items-center bg-[#0B2F9F]">
         <Link href="/">
     
-          <Image src="/html.png" alt="Kenneth's Portfolio" width={75} height={75} />
+          <Image src="/portfolio.png" alt="Kenneth's Portfolio" width={400} height={400} />
       
         </Link>
       </div>
@@ -19,11 +19,10 @@ const Projects = () => {
         </p>
       </div>
       <div className="px-6 pt-4 pb-2">
-        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">#photography</span>
-        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">#travel</span>
-        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">#winter</span>
-        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">#winter</span>
-        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">#winter</span>
+        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">React.JS</span>
+        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">Next.JS</span>
+        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">Tailwind CSS</span>
+        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">Material UI</span>
       </div>
     </div>
 

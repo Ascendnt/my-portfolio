@@ -15,15 +15,15 @@ const HomePage = () => {
     };
       }, []);
       return (
-        <div className=''>
+        <div>
           <ParticlesBackground />
           
-        <div className="relative flex flex-col min-h-screen items-center justify-center z-10 text-white text-center animate-slidein">
+        <div className="home">
         <div>
-          <h1 className="text-5xl select-none">Kenneth Balantucas</h1>
+          <h1 className="home-name">Kenneth Balantucas</h1>
         </div>
-        <div><h1 className="mt-4 text-2xl text-center select-none text-gray-400">BS Computer Engineering</h1></div>
-        <div className='flex mt-12 gap-4'>
+        <div className='home-course'>BS Computer Engineer</div>
+        <div className='logo-images'>
           <div className='bg-white rounded-full'>
             <Link href="https://github.com/kennethBalantucas" target="_blank">      
               <Image

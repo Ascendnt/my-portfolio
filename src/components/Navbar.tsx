@@ -24,11 +24,10 @@ const Navbar = () => {
   return (
     <div className="relative">
       <nav
-        className={`fixed w-full z-50 p-4 text-white transition-all duration-300 ${
+        className={`nav-section ${
           isScrolled ? 'bg-custom-radial-gradient bg-opacity-100' : 'bg-opacity-0'
-        }`}
-      >
-        <div className="flex items-center justify-center gap-9 animate-slidein">
+        }`}>
+        <div className="nav-links">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
         </div>

@@ -14,22 +14,108 @@ html {
 }
 
 a {
-  @apply cursor-pointer; /* Apply the custom cursor for links */
+  @apply cursor-pointer;
 }
 
+/* Navigation Bar Section */
 
+.nav-section {
+  @apply fixed w-full z-50 p-4 text-white transition-all duration-300
+}
 
+.nav-links {
+  @apply flex items-center justify-center gap-9 animate-slidein
+}
 
-/* span {
-  @apply block
-} */
- 
-/* @layer base {
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(/fonts/Roboto.woff2) format('woff2');
-  }
-} */
+/* Home Section */
+
+.home {
+  @apply relative flex flex-col min-h-screen items-center justify-center z-10 text-white text-center animate-slidein
+}
+
+.home-name {
+  @apply text-5xl select-none
+}
+
+.home-course {
+  @apply mt-4 text-2xl text-center select-none text-gray-400
+}
+
+.logo-images {
+  @apply flex mt-12 gap-4
+}
+
+/* About Section */
+
+.about-section {
+  @apply flex min-h-screen text-white animate-slidein bg-custom-radial-gradient
+}
+
+.about-sidebar {
+  @apply fixed top-0 left-0 w-1/3 p-32 h-full
+}
+
+.about-name {
+  @apply w-max m-5 select-none text-4xl
+}
+
+.about-course {
+  @apply w-max m-5 select-none text-gray-400
+}
+
+.about-paragraph {
+  @apply w-max m-5 mt-12 select-none
+}
+
+.about-link {
+  @apply w-max m-5
+}
+
+.about-first-link {
+  @apply mt-10 hover:underline
+}
+
+.about-links {
+  @apply mt-3 hover:underline
+}
+
+.about-logo {
+  @apply flex gap-7 m-5 mt-12
+}
+
+.about-content {
+  @apply flex-1 ml-[35%] p-32 mt-0
+}
+
+.about-experience {
+  @apply w-max text-3xl select-none scroll-mt-[7.5rem]
+}
+
+.about-experience-section {
+  @apply mt-10 ml-16 px-8 select-none
+}
+
+.about-education-skills-projects-contacts {
+  @apply w-max text-3xl mt-32 select-none scroll-mt-[7.5rem]
+}
+
+.about-education-section {
+  @apply mt-10 ml-16 px-8 select-none
+}
+
+.about-skills-section {
+  @apply mt-10 ml-16 px-8
+}
+
+.about-projects-section {
+  @apply flex items-center justify-center w-full mt-10 px-8
+}
+
+.about-contacts-section {
+  @apply flex flex-col items-center justify-center
+}
+
+.about-contacts-btn {
+  @apply my-9 px-6 py-3.5 text-base font-medium text-white bg-[#535C91] hover:bg-[#070F2B] focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+}
+
