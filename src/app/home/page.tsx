@@ -21,7 +21,7 @@ const HomePage = () => {
         <div>
           <h1 className="home-name">Kenneth Balantucas</h1>
         </div>
-        <div className="home-course">Aspiring Web Developer</div>
+        <div className="home-course">Web Developer</div>
         <div className="logo-images">
           <div className="bg-white rounded-full">
             <Link href="https://github.com/kennethBalantucas" target="_blank">
