@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className="mt-16 max-w-sm shadow-md bg-[#161D6F]">
       <div className="flex justify-center items-center bg-[#0B2F9F]">
-        <Link href="/">
+        <Link href="https://kennethbalantucas.vercel.app">
           <Image
             src="/portfolio.png"
             alt="Kenneth's Portfolio"
