@@ -41,12 +41,12 @@ a {
 /* About Section */
 
 .about-section {
-  @apply flex min-h-screen text-white animate-slidein bg-custom-radial-gradient;
+  @apply flex min-h-screen text-white bg-custom-radial-gradient;
   @apply sm:flex-col sm:min-h-screen;
 }
 
 .about-sidebar {
-  @apply fixed top-0 left-0 w-1/3 p-32 h-full;
+  @apply fixed top-0 left-0 w-1/3 p-32 h-full animate-slidein;
   @apply sm:w-full sm:h-auto sm:relative sm:p-8 sm:flex sm:flex-col;
 }
 
@@ -82,7 +82,7 @@ a {
 }
 
 .about-content {
-  @apply flex-1 ml-[35%] p-32 mt-0;
+  @apply flex-1 ml-[35%] p-32 mt-0 animate-slidein;
   @apply sm:ml-0 sm:p-4 sm:mt-8;
 }
 
