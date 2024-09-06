@@ -20,7 +20,7 @@ const Projects = () => {
         <div className="font-bold text-xl mb-2 text-white">My Portfolio</div>
         <p className="text-gray-400 text-base">
           A web app that showcases my projects and skills. The application is
-          built using Next.js, Tailwind CSS and Material UI
+          built using Next.js, Tailwind CSS and Material UI.
         </p>
       </div>
       <div className="px-6 pt-4 pb-2">
