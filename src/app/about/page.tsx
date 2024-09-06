@@ -13,7 +13,22 @@ const AboutPage = () => {
     <section className="about-section">
       <div className="about-sidebar">
         <div className="about-name">Kenneth Balantucas</div>
-        <div className="about-course">BS Computer Engineering</div>
+
+        <div className="about-logo">
+          <div className="bg-white rounded-full">
+            <Link href="https://github.com/kennethBalantucas" target="_blank">
+              <Image src="/github.svg" width={40} height={40} alt="HTML" />
+            </Link>
+          </div>
+
+          <Link
+            href="https://linkedin.com/in/kennethbalantucas"
+            target="_blank">
+            <Image src="/linkedin.svg" width={40} height={40} alt="HTML" />
+          </Link>
+        </div>
+
+        {/* <div className="about-course">BS Computer Engineering</div> */}
         <div className="about-paragraph">
           I am a graduate of BS Computer Engineering who is passionate about
           web/software development, and I am deeply committed to continuous
@@ -37,20 +52,6 @@ const AboutPage = () => {
           <div className="about-links">
             <Link href="about#contact">Contact</Link>
           </div>
-        </div>
-
-        <div className="about-logo">
-          <div className="bg-white rounded-full">
-            <Link href="https://github.com/kennethBalantucas" target="_blank">
-              <Image src="/github.svg" width={40} height={40} alt="HTML" />
-            </Link>
-          </div>
-
-          <Link
-            href="https://linkedin.com/in/kennethbalantucas"
-            target="_blank">
-            <Image src="/linkedin.svg" width={40} height={40} alt="HTML" />
-          </Link>
         </div>
       </div>
 
