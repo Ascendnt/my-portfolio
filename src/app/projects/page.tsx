@@ -24,9 +24,6 @@ const Projects = () => {
       </div>
       <div className="px-6 pt-4 pb-2">
         <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">
-          React.JS
-        </span>
-        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">
           Next.JS
         </span>
         <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">

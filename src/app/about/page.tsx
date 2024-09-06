@@ -100,7 +100,7 @@ const AboutPage = () => {
             <div>You can contact me here!</div>
             <a href="mailto:kennethbalantucas14@gmail.com">
               <button type="button" className="about-contacts-btn">
-                My Email!
+                Email me!
               </button>
             </a>
           </div>
