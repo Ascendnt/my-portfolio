@@ -19,46 +19,41 @@ const EducationSection = () => {
 
           <TimelineHeader className="h-6">
             <TimelineIcon className="bg-[#01579b]" />
-            <Typography
-              variant="h5"
-              color="blue"
-              className="leading-none sm:text-base">
+            <Typography variant="h5" color="blue" className="leading-none">
               Cavite State University Indang
             </Typography>
           </TimelineHeader>
 
           <TimelineBody className="pb-8">
-            <Typography className="leading-7">
+            <Typography className="leading-8">
               BS Computer Engineering
             </Typography>
             <Typography className="leading-7">2020-2024</Typography>
             <Typography variant="small" className="font-normal text-gray-600">
-              The key to more success is to have a lot of pillows. Put it this
-              way, it took me twenty-five years to get these plants, twenty-five
-              years of blood sweat and tears, and I&apos;m never giving up,
-              I&apos;m just getting started. I&apos;m up to something. Fan luv.
+              Pursued a Bachelor of Science in Computer Engineering, focusing on
+              software and hardware integration, and gained hands-on experience
+              in developing applications and systems.
             </Typography>
           </TimelineBody>
         </TimelineItem>
         <TimelineItem>
-          <TimelineHeader className="h-6">
+          <TimelineHeader className="h-3">
             <TimelineIcon className="bg-[#01579b]" />
-            <Typography
-              variant="h5"
-              color="blue"
-              className="leading-none sm:text-base">
+            <Typography variant="h5" color="blue" className="leading-none">
               Philippine Christian University Dasma
             </Typography>
           </TimelineHeader>
 
           <TimelineBody className="pb-8">
-            <Typography className="leading-7">S.T.E.M. Strand</Typography>
+            <Typography className="leading-7 sm:mt-2">
+              S.T.E.M. Strand
+            </Typography>
             <Typography className="leading-7">2018-2020</Typography>
             <Typography variant="small" className="font-normal text-gray-600">
-              The key to more success is to have a lot of pillows. Put it this
-              way, it took me twenty-five years to get these plants, twenty-five
-              years of blood sweat and tears, and I&apos;m never giving up,
-              I&apos;m just getting started. I&apos;m up to something. Fan luv.
+              Completed the S.T.E.M. Strand, where I gained valuable knowledge
+              in science, technology, engineering, and mathematics, and
+              developed practical skills for solving problems and analyzing
+              technical issues.
             </Typography>
           </TimelineBody>
         </TimelineItem>

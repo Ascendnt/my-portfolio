@@ -14,7 +14,12 @@ const AboutPage = () => {
       <div className="about-sidebar">
         <div className="about-name">Kenneth Balantucas</div>
         <div className="about-course">BS Computer Engineering</div>
-        <div className="about-paragraph">Some Paragraph Here</div>
+        <div className="about-paragraph">
+          I am a graduate of BS Computer Engineering who is passionate about
+          web/software development, and I am deeply committed to continuous
+          learning and personal growth. Dedicated to being a well-rounded
+          professional.
+        </div>
 
         <div className="about-link">
           <div className="mt-10 hover:underline">

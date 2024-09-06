@@ -6,12 +6,6 @@ html {
   @apply scroll-smooth overflow-x-hidden;
 }
 
-*,
-*:before,
-*:after {
-  @apply cursor-default;
-}
-
 a {
   @apply cursor-pointer;
 }
@@ -62,13 +56,13 @@ a {
 }
 
 .about-course {
-  @apply w-max m-5 select-none text-gray-400;
+  @apply w-max m-5 select-none;
   @apply sm:text-lg sm:m-2;
 }
 
 .about-paragraph {
-  @apply w-max m-5 mt-12 select-none;
-  @apply sm:m-2 sm:mt-4;
+  @apply w-max m-5 mt-12 select-none text-gray-400;
+  @apply w-full sm:m-2 sm:mt-8 max-w-[32rem] sm:max-w-[24rem] md:max-w-[28rem] lg:max-w-[32rem];
 }
 
 .about-link {

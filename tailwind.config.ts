@@ -26,10 +26,6 @@ const config: Config = withMT({
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
-      cursor: {
-        default: 'url(/cursor.png) 38 38, default',
-        pointer: 'url(/cursor.png) 38 38, pointer',
-      },
       backgroundImage: {
         'custom-radial-gradient': 'radial-gradient(ellipse at bottom, #1B1A55 0%, #070F2B 100%)',
       },
