@@ -20,38 +20,36 @@ const ExperienceSection = () => {
 
           <TimelineHeader className="h-3">
             <TimelineIcon className="bg-[#01579b]" />
-            <Typography variant="h5" color="blue" className="leading-none">
+            <div className="text-blue-500 font-bold text-lg leading-none">
               Genpact Services LLC
-            </Typography>
+            </div>
           </TimelineHeader>
 
           <TimelineBody className="pb-8">
-            <Typography className="leading-7">Process Associate</Typography>
-            <Typography className="leading-7">2024</Typography>
-            <Typography variant="small" className="font-normal text-gray-600">
+            <div className="leading-7">Process Associate</div>
+            <div className="leading-7">2024</div>
+            <div className="text-sm font-normal text-gray-600">
               Delivered exceptional support, resolving client issues promptly
               and enhancing overall satisfaction of the clients.
-            </Typography>
+            </div>
           </TimelineBody>
         </TimelineItem>
         <TimelineItem>
           <TimelineHeader className="h-3">
             <TimelineIcon className="bg-[#01579b]" />
-            <Typography variant="h5" color="blue" className="leading-none">
+            <div className="text-blue-500 font-bold text-lg leading-none">
               Lambert Williams Logistics
-            </Typography>
+            </div>
           </TimelineHeader>
 
           <TimelineBody className="pb-8">
-            <Typography className="leading-7">
-              Software Developer Intern
-            </Typography>
-            <Typography className="leading-7">2023</Typography>
-            <Typography variant="small" className="font-normal text-gray-600">
+            <div className="leading-7">Software Developer Intern</div>
+            <div className="leading-7">2023</div>
+            <div className="text-sm font-normal text-gray-600">
               Contributed to developing an Employee Record List page for the
               HRIS, as well as creating an e-commerce product list page with
               features for product visibility, filtering, and pagination.
-            </Typography>
+            </div>
           </TimelineBody>
         </TimelineItem>
       </Timeline>
