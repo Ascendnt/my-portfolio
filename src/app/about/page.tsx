@@ -7,12 +7,10 @@ import Link from "next/link";
 import SkillsSections from "../skills/page";
 import Projects from "../projects/page";
 import Image from "next/image";
-import NavBar from "@/components/NavBar";
 
 const AboutPage = () => {
   return (
     <section className="about-section">
-      <NavBar />
       <div className="about-sidebar">
         <div className="about-name">Kenneth Balantucas</div>
         <div className="about-course">BS Computer Engineering</div>
