@@ -43,7 +43,7 @@ const ExperienceSection = () => {
           </TimelineHeader>
 
           <TimelineBody className="pb-8">
-            <div className="leading-7">Software Developer Intern</div>
+            <div className="leading-7 sm:mt-2">Software Developer Intern</div>
             <div className="leading-7">2023</div>
             <div className="text-sm font-normal text-gray-600">
               Contributed to developing an Employee Record List page for the
