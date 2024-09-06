@@ -5,8 +5,8 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="mt-16 max-w-sm shadow-md bg-[#161D6F]">
-      <div className="flex justify-center items-center bg-[#0B2F9F]">
+    <div className="mt-16 max-w-sm shadow-md bg-[#3f3d56]">
+      <div className="flex justify-center items-center">
         <Link href="https://kennethbalantucas.vercel.app">
           <Image
             src="/portfolio.png"
@@ -24,15 +24,13 @@ const Projects = () => {
         </p>
       </div>
       <div className="px-6 pt-4 pb-2">
-        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">
-          Next.JS
-        </span>
-        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">
-          Tailwind CSS
-        </span>
-        <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">
-          Material UI
-        </span>
+        {["Next.JS", "Tailwind CSS", "Material UI"].map((tech) => (
+          <span
+            key={tech}
+            className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2">
+            {tech}
+          </span>
+        ))}
       </div>
     </div>
   );

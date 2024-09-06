@@ -30,10 +30,8 @@ const AboutPage = () => {
 
         {/* <div className="about-course">BS Computer Engineering</div> */}
         <div className="about-paragraph">
-          I am a graduate of BS Computer Engineering who is passionate about
-          web/software development, and I am deeply committed to continuous
-          learning and personal growth. Dedicated to being a well-rounded
-          professional.
+          I&apos;m a BS Computer Engineering graduate, passionate about web
+          development, dedicated to continuous learning and personal growth.
         </div>
 
         <div className="about-link">
