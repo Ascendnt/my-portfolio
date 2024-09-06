@@ -19,7 +19,8 @@ const Projects = () => {
       <div className="px-16 py-4">
         <div className="font-bold text-xl mb-2 text-white">My Portfolio</div>
         <p className="text-gray-400 text-base">
-          My first attempt creating a portfolio using a framework
+          A web app that showcases my projects and skills. The application is
+          built using Next.js, Tailwind CSS and Material UI
         </p>
       </div>
       <div className="px-6 pt-4 pb-2">
