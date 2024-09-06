@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import ParticlesBackground from "../particles/page";
 import Link from "next/link";
 import Image from "next/image";
+import NavBar from "@/components/NavBar";
 
 const HomePage = () => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const HomePage = () => {
   }, []);
   return (
     <div>
+      <NavBar />
       <ParticlesBackground />
 
       <div className="home">
@@ -32,8 +34,7 @@ const HomePage = () => {
 
           <Link
             href="https://linkedin.com/in/kennethbalantucas"
-            target="_blank"
-          >
+            target="_blank">
             <Image src="/linkedin.svg" width={40} height={40} alt="HTML" />
           </Link>
         </div>
