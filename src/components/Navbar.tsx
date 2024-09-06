@@ -1,6 +1,6 @@
-'use client'
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
+"use client";
+import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -14,10 +14,10 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -25,8 +25,11 @@ const Navbar = () => {
     <div className="relative">
       <nav
         className={`nav-section ${
-          isScrolled ? 'bg-custom-radial-gradient bg-opacity-100' : 'bg-opacity-0'
-        }`}>
+          isScrolled
+            ? "bg-custom-radial-gradient bg-opacity-100"
+            : "bg-opacity-0"
+        }`}
+      >
         <div className="nav-links">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>

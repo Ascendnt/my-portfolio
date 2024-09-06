@@ -33,11 +33,11 @@ a {
 }
 
 .home-name {
-  @apply text-5xl select-none;
+  @apply text-5xl select-none sm:text-3xl;
 }
 
 .home-course {
-  @apply mt-4 text-2xl text-center select-none text-gray-400;
+  @apply mt-4 text-2xl sm:text-lg text-center select-none text-gray-400;
 }
 
 .logo-images {
@@ -48,26 +48,31 @@ a {
 
 .about-section {
   @apply flex min-h-screen text-white animate-slidein bg-custom-radial-gradient;
+  @apply sm:flex-col sm:min-h-screen;
 }
 
 .about-sidebar {
   @apply fixed top-0 left-0 w-1/3 p-32 h-full;
+  @apply sm:w-full sm:h-auto sm:relative sm:p-8 sm:flex sm:flex-col;
 }
 
 .about-name {
   @apply w-max m-5 select-none text-4xl;
+  @apply sm:text-2xl sm:m-2 sm:mt-16;
 }
 
 .about-course {
   @apply w-max m-5 select-none text-gray-400;
+  @apply sm:text-lg sm:m-2;
 }
 
 .about-paragraph {
   @apply w-max m-5 mt-12 select-none;
+  @apply sm:m-2 sm:mt-4;
 }
 
 .about-link {
-  @apply w-max m-5;
+  @apply w-max m-5 sm:hidden;
 }
 
 .about-first-link {
@@ -84,10 +89,12 @@ a {
 
 .about-content {
   @apply flex-1 ml-[35%] p-32 mt-0;
+  @apply sm:ml-0 sm:p-4 sm:mt-8;
 }
 
 .about-experience {
   @apply w-max text-3xl select-none scroll-mt-[7.5rem];
+  @apply sm:text-xl sm:ml-6;
 }
 
 .about-experience-section {
@@ -96,6 +103,7 @@ a {
 
 .about-education-skills-projects-contacts {
   @apply w-max text-3xl mt-32 select-none scroll-mt-[7.5rem];
+  @apply sm:text-xl sm:ml-6 sm:mt-16;
 }
 
 .about-education-section {
@@ -117,3 +125,5 @@ a {
 .about-contacts-btn {
   @apply my-9 px-6 py-3.5 text-base font-medium text-white bg-[#535C91] hover:bg-[#070F2B] focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
 }
+
+/* Experience/Education/Skills/Projects/Contact Section */

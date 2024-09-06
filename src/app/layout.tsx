@@ -4,9 +4,9 @@ import "./globals.css";
 import NavBar from "@/components/Navbar";
 
 const montserrat = Montserrat({
-  weight: '500',
-  subsets: ['latin'],
-  display: 'swap',
+  weight: "500",
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -22,9 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
-      <NavBar />
+        <NavBar />
         {children}
-        </body>
+      </body>
     </html>
   );
 }
