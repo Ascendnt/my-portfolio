@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-const Navbar = () => {
+const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -28,8 +28,7 @@ const Navbar = () => {
           isScrolled
             ? "bg-custom-radial-gradient bg-opacity-100"
             : "bg-opacity-0"
-        }`}
-      >
+        }`}>
         <div className="nav-links">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
@@ -39,4 +38,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;

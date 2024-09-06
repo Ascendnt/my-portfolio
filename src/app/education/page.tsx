@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   Timeline,
@@ -6,7 +7,6 @@ import {
   TimelineHeader,
   TimelineIcon,
   TimelineBody,
-  Typography,
 } from "@material-tailwind/react";
 
 const EducationSection = () => {
