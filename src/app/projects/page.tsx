@@ -19,9 +19,7 @@ const Projects = () => {
       <div className="px-16 py-4">
         <div className="font-bold text-xl mb-2 text-white">My Portfolio</div>
         <p className="text-gray-400 text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
-          nihil.
+          My first attempt creating a portfolio using a framework
         </p>
       </div>
       <div className="px-6 pt-4 pb-2">
