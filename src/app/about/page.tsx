@@ -12,19 +12,25 @@ const AboutPage = () => {
   return (
     <section className="about-section">
       <div className="about-sidebar">
+        <div className="rounded-full ml-8">
+          <Image src="/profile.png" width={100} height={100} alt="profile" />
+        </div>
+
         <div className="about-name">Kenneth Balantucas</div>
 
         <div className="about-logo">
           <div className="bg-white rounded-full">
-            <Link href="https://github.com/kennethBalantucas" target="_blank">
-              <Image src="/github.svg" width={40} height={40} alt="HTML" />
+            <Link
+              href="https://github.com/Ascendnt/my-portfolio"
+              target="_blank">
+              <Image src="/github.svg" width={30} height={30} alt="Github" />
             </Link>
           </div>
 
           <Link
             href="https://linkedin.com/in/kennethbalantucas"
             target="_blank">
-            <Image src="/linkedin.svg" width={40} height={40} alt="HTML" />
+            <Image src="/linkedin.svg" width={30} height={30} alt="LinkeIn" />
           </Link>
         </div>
 

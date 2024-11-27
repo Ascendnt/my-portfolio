@@ -24,7 +24,9 @@ const HomePage = () => {
         <div className="home-course">Web Developer</div>
         <div className="logo-images">
           <div className="bg-white rounded-full">
-            <Link href="https://github.com/kennethBalantucas" target="_blank">
+            <Link
+              href="https://github.com/Ascendnt/my-portfolio"
+              target="_blank">
               <Image src="/github.svg" width={40} height={40} alt="HTML" />
             </Link>
           </div>
